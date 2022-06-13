@@ -1,0 +1,51 @@
+/* NAV STYLES */
+.nav-wrapper{
+    height: 150px;
+    padding: 0 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper > .logo img{
+    width: 200px;
+}
+
+/* Left Column */
+.left-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column > .explore-text h4{
+    color:palegoldenrod;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+.left-column > .links-dropdown-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.left-column > .links-dropdown-wrapper > .nav-links-wrapper{
+    display: flex;
+    gap: 15px;
+}
+
+.left-column > .links-dropdown-wrapper > .nav-links-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.left-column > .links-dropdown-wrapper > .nav-links-wrapper > .nav-link a:hover{
+    color:cornflowerblue;
+}
+
+.left-column > .links-dropdown-wrapper > .dropdown-menu{
+    display: flex;
+    gap: 4px;
+}

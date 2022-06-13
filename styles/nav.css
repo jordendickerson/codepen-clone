@@ -4,23 +4,26 @@
     padding: 0 50px;
     background-color: black;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    justify-content:space-between;
     align-items: center;
 }
 
 .nav-wrapper > .logo img{
     width: 200px;
+    margin-right: 10px;
 }
 
 /* Left Column */
 .left-column{
     display: flex;
     flex-direction: column;
+    font-size: 1.25em;
 }
 
 .left-column > .explore-text h4{
-    color:palegoldenrod;
+    color:#d5ac5b;
     font-weight: 400;
     margin: 5px 0px;
 }
@@ -78,9 +81,23 @@
     font-size: 0.75em;
     font-weight: 600;
     border-radius: 6px;
+    transition: 0.3s;
+}
+
+.right-column > .nav-button button:active{
+    background-color: #242529;
 }
 
 .right-column > .nav-button button i{
-    color: green;
+    color: #4ac977;
     font-size: 1.1em;
+}
+
+.right-column > .search-icon i:hover{
+transition: 0.5s;
+}
+
+.right-column > .search-icon i:hover{
+    color: cornflowerblue;
+
 }

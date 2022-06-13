@@ -1,0 +1,33 @@
+@media (max-width: 1080px){
+    /* Nav Bar */
+    .nav-wrapper{
+        flex-direction: column;
+        height: 200px;
+        padding: 15px;
+    }
+    .nav-wrapper > .left-column{
+        flex-direction: column;
+    }
+
+    /* Hero Section */
+    .hero-section{
+        height: 1000px;
+    }
+    /* Hero Section Left Column*/
+    .hero-section > .left-column{
+        padding: 15px 50px;
+    }
+    .hero-section > .left-column > .head-text{
+        font-size: 2em;
+    }
+    .hero-section > .left-column > .sub-text{
+        font-size: 1.8em;
+    }
+    .hero-section > .left-column > .buttons-wrapper button{
+        font-size: 1.2em;
+    }
+    /* Hero Section Right Column */
+    .hero-section > .right-column img{
+        width: 500px;
+    }
+}

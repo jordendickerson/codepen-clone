@@ -16,42 +16,42 @@
 }
 
 /* Left Column */
-.left-column{
+.nav-wrapper > .left-column{
     display: flex;
     flex-direction: column;
     font-size: 1.25em;
 }
 
-.left-column > .explore-text h4{
+.nav-wrapper > .left-column > .explore-text h4{
     color:#d5ac5b;
     font-weight: 400;
     margin: 5px 0px;
 }
 
-.left-column > .links-dropdown-wrapper{
+.nav-wrapper > .left-column > .links-dropdown-wrapper{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 }
 
-.left-column > .links-dropdown-wrapper > .nav-links-wrapper{
+.nav-wrapper > .left-column > .links-dropdown-wrapper > .nav-links-wrapper{
     display: flex;
     gap: 15px;
 }
 
-.left-column > .links-dropdown-wrapper > .nav-links-wrapper > .nav-link a{
+.nav-wrapper > .left-column > .links-dropdown-wrapper > .nav-links-wrapper > .nav-link a{
     color: white;
     font-weight: 800;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.left-column > .links-dropdown-wrapper > .nav-links-wrapper > .nav-link a:hover{
+.nav-wrapper > .left-column > .links-dropdown-wrapper > .nav-links-wrapper > .nav-link a:hover{
     color:cornflowerblue;
 }
 
-.left-column > .links-dropdown-wrapper > .dropdown-menu a{
+.nav-wrapper > .left-column > .links-dropdown-wrapper > .dropdown-menu a{
     display: flex;
     color: lightgray;
     text-decoration: none;
@@ -60,20 +60,21 @@
     font-weight: 400;
 }
 
-.left-column > .links-dropdown-wrapper > .dropdown-menu > a > .dropdown-text{
+.nav-wrapper > .left-column > .links-dropdown-wrapper > .dropdown-menu > a > .dropdown-text{
     color: lightgray;
 }
 
 /* Right Column */
-.right-column{
+.nav-wrapper > .right-column{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-left: 750px;
 }
 
-.right-column > .nav-button button{
+.nav-wrapper > .right-column > .nav-button button{
     width: 110px;
     height: 60px;
     background-color: #36383f;
@@ -84,20 +85,20 @@
     transition: 0.3s;
 }
 
-.right-column > .nav-button button:active{
+.nav-wrapper > .right-column > .nav-button button:hover{
     background-color: #242529;
 }
 
-.right-column > .nav-button button i{
+.nav-wrapper > .right-column > .nav-button button i{
     color: #4ac977;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
-.right-column > .search-icon i:hover{
+.nav-wrapper > .right-column > .search-icon i{
 transition: 0.5s;
 }
 
-.right-column > .search-icon i:hover{
+.nav-wrapper > .right-column > .search-icon i:hover{
     color: cornflowerblue;
 
 }

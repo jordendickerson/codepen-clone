@@ -5,3 +5,11 @@ body{
     margin: 0;
     padding: 0;
 }
+
+button{
+    transition: 0.5s;
+}
+
+button:hover{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}

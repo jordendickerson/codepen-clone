@@ -5,6 +5,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #0a0b0c;
+    display: flex;
+    flex-direction: column;
 }
 
 button{

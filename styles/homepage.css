@@ -1,6 +1,6 @@
 /* Homepage Styles */
 .hero-section{
-    height: 600px;
+    height: 850px;
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -12,6 +12,7 @@
 
 /* Left Column */
 .hero-section > .left-column{
+    height: 500px;
     padding: 50px 150px;
 }
 
@@ -39,7 +40,7 @@
 
 .hero-section > .left-column > .buttons-wrapper button{
     height: 65px;
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: 600;
     padding: 15px;
     border-radius: 2px;
@@ -60,6 +61,10 @@
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+}
+
+.hero-section > .right-column > .image img{
+    width: 600px;
 }
 
 .hero-section > .right-column > .text{
